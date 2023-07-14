@@ -51,7 +51,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "github-release-test-5"
+          tag_name: "github-release-test-6"
           release_name: "GitHub Action Release test"
           draft: false
           prerelease: false
@@ -66,7 +66,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: "app/build/outputs/apk/app/release/Lawnicons 2.2.1  v5_release.apk"
+#           asset_path: "app/build/outputs/apk/app/release/*.apk"
+          asset_path: ${{ steps.get-apk-filename.outputs.FILENAME }}
           asset_name: testing.apk
           asset_content_type: application/vnd.android.package-archive
 
