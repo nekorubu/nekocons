@@ -21,7 +21,7 @@ val ciRunNumber = System.getenv("GITHUB_RUN_NUMBER").orEmpty()
 val isReleaseBuild = ciBuild && ciRef.contains("main")
 val devReleaseName = if (ciBuild) "(Dev #$ciRunNumber)" else "($buildCommit)"
 
-val version = "2.2.1"
+val version = "2.2.1.1"
 val versionDisplayName = "$version ${if (isReleaseBuild) "" else devReleaseName}"
 
 android {
@@ -127,7 +127,7 @@ android {
 
         outputs.all {
             (this as? ApkVariantOutputImpl)?.outputFileName =
-                "Lawnicons $versionName v${versionCode}_${buildType.name}.apk"
+                "Nekocons $versionName v${versionCode}_${buildType.name}.apk"
         }
     }
 }
