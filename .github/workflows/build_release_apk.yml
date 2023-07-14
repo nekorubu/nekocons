@@ -66,7 +66,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: "app/build/outputs/apk/app/release/Release APK.zip"
+          asset_path: "app/build/outputs/apk/app/release/Lawnicons 2.2.1  v5_release.apk"
           asset_name: testing.apk
           asset_content_type: application/vnd.android.package-archive
 
