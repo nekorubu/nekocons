@@ -541,6 +541,7 @@
   <item component="ComponentInfo{com.byu.id/com.byu.id.MainActivity}" drawable="by_u" name="by.U" />
   <item component="ComponentInfo{de.c24.bankapp/de.check24.c24.MainActivity}" drawable="c24" name="C24 Bank" />
   <item component="ComponentInfo{cgeo.geocaching/cgeo.geocaching.SplashActivity}" drawable="cgeo" name="c:geo" />
+  <item component="ComponentInfo{com.github.bmx666.appcachecleaner/com.github.bmx666.appcachecleaner.ui.activity.AppCacheCleanerActivity}" drawable="phosphor_broom" name="Cache Cleaner" />
   <item component="ComponentInfo{com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity}" drawable="cainiao" name="Cainiao" />
   <item component="ComponentInfo{br.com.gabba.Caixa/br.com.gabba.Caixa.presentation.SplashActivity}" drawable="caixa" name="CAIXA" />
   <item component="ComponentInfo{advanced.scientific.calculator.calc991.plus/advanced.scientific.calculator.calc991.plus.main.ytivitcArotaluclaCecneicS_kLCneODahnPWsyfdoUSygLOxHQLt_e}" drawable="calces" name="CalcES" />
@@ -579,6 +580,40 @@
   <item component="ComponentInfo{org.solovyev.android.calculator/org.solovyev.android.calculator.CalculatorActivity}" drawable="calculator_plusplus" name="Calculator Plus Plus" />
   <item component="ComponentInfo{org.solovyev.android.calculator/org.solovyev.android.calculator.floating.FloatingCalculatorActivity}" drawable="calculator_plusplus" name="Calculator Plus Plus" />
   <item component="ComponentInfo{org.solovyev.android.calculator/org.solovyev.android.calculator.onscreen.CalculatorOnscreenStartActivity}" drawable="calculator_plusplus" name="Calculator Plus Plus" />
+  <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.huawei.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{foundation.e.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{org.calyxos.etar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{org.withouthat.acalendar/org.withouthat.acalendar.ACalendar}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" prefix="themed_icon_calendar_" name="Calendar" />
+  <calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
+  
+  <item drawableIgnore="true" component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{org.sufficientlysecure.localcalendar/org.sufficientlysecure.localcalendar.ui.MainActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{foundation.e.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.huawei.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.xiaomi.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{org.calyxos.etar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{org.withouthat.acalendar/org.withouthat.acalendar.ACalendar}" drawable="themed_icon_calendar_31" name="Calendar" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
+  
   <item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.gustavoas.calendarqst/com.gustavoas.calendarqst.SettingsActivity}" drawable="calentile" name="CalenTile" />
@@ -715,6 +750,7 @@
   <item component="ComponentInfo{com.careem.acma/com.careem.superapp.core.onboarding.activity.OnboardingActivity}" drawable="careem" name="Careem" />
   <item component="ComponentInfo{com.spisoft.quicknote/com.spisoft.quicknote.MainActivity}" drawable="carnet" name="Carnet" />
   <item component="ComponentInfo{br.gov.dataprev.carteiradigital/br.gov.dataprev.carteiradigital.MainActivity}" drawable="carteira_de_trabalho_digital" name="Carteira de Trabalho Digital" />
+  <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="phosphor_currency_dollar_simple" name="Cash App" />
   <item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.base.BaseActivity}" drawable="castro" name="Castro" />
   <item component="ComponentInfo{com.catalyst/io.kodular.thedudelikesapples.Catalyst.Screen1}" drawable="catalyst" name="Catalyst" />
   <item component="ComponentInfo{me.hackerchick.catima/protect.card_locker.MainActivity}" drawable="catima" name="Catima" />
@@ -861,6 +897,7 @@
   <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.androidapp.ui.LibreOfficeUIActivity}" drawable="collabora_office" name="Collabora Office" />
   <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.LibreOfficeMainActivity}" drawable="collabora_office" name="Collabora Office" />
   <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.ui.LibreOfficeUIActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.nauj27.android.colorpicker/com.nauj27.android.colorpicker.ColorPickerActivity}" drawable="phosphor_eyedropper" name="Color Picker" />
   <item component="ComponentInfo{gmikhail.colorpicker/gmikhail.colorpicker.activities.MainActivity}" drawable="color_picker" name="Color Picker" />
   <item component="ComponentInfo{com.color.puzzle.i.love.hue.blendoku.game/com.color.puzzle.i.love.hue.blendoku.game.MainActivity}" drawable="color_puzzle" name="Color Puzzle" />
   <item component="ComponentInfo{de.peterge.combined/com.godot.game.GodotApp}" drawable="combined" name="Combined!" />
@@ -1047,6 +1084,7 @@
   <item component="ComponentInfo{com.dealabs.apps.android/com.pepper.apps.android.presentation.MainActivityV2}" drawable="dealabs" name="Dealabs" />
   <item component="ComponentInfo{it.niedermann.nextcloud.deck/it.niedermann.nextcloud.deck.ui.MainActivity}" drawable="nextcloud_deck" name="Deck" />
   <item component="ComponentInfo{com.tplink.tpm5/com.tplink.tpm5.component.account.welcome.view.WelcomeActivity}" drawable="deco" name="Deco" />
+  <item component="ComponentInfo{org.decsync.cc/org.decsync.cc.ui.MainActivity}" drawable="phosphor_user_switch" name="DecSync CC" />
   <item component="ComponentInfo{com.deepl.mobiletranslator/com.deepl.mobiletranslator.MainActivity}" drawable="deepl" name="DeepL" />
   <item component="ComponentInfo{com.example.deeplviewer/com.example.deeplviewer.MainActivity}" drawable="deepl" name="DeepL" />
   <item component="ComponentInfo{com.jamal2367.deepl/com.jamal2367.deepl.MainActivity}" drawable="deepl" name="DeepL" />
@@ -1301,6 +1339,7 @@
   <item component="ComponentInfo{net.vonforst.evmap/net.vonforst.evmap.MapsActivity}" drawable="evmap" name="EVMap" />
   <item component="ComponentInfo{air.com.shirogames.evoland12/air.com.shirogames.evoland12.AIRAppEntry}" drawable="evoland" name="Evoland" />
   <item component="ComponentInfo{com.playdigious.evoland2/com.playdigious.evoland2.Evoland2Loading}" drawable="evoland2" name="Evoland 2" />
+  <item component="ComponentInfo{org.eu.exodus_privacy.exodusprivacy/org.eu.exodus_privacy.exodusprivacy.MainActivity}" drawable="phosphor_magnifying_glass" name="Exodus" />
   <item component="ComponentInfo{com.expedia.bookings/com.expedia.bookings.activity.SearchActivity}" drawable="expedia" name="Expedia" />
   <item component="ComponentInfo{com.exteragram.messenger/com.exteragram.messenger.DefaultIcon}" drawable="exteragram" name="exteraGram" />
   <item component="ComponentInfo{com.exteragram.messenger/org.telegram.ui.LaunchActivity}" drawable="exteragram" name="exteraGram" />
@@ -1853,8 +1892,8 @@
   <item component="ComponentInfo{com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity}" drawable="hue" name="Hue" />
   <item component="ComponentInfo{com.hulu.plus/com.hulu.features.splash.SplashActivity}" drawable="hulu" name="Hulu" />
   <item component="ComponentInfo{de.human_resources/com.godot.game.GodotApp}" drawable="human_resources" name="Human Resources" />
-  <item component="ComponentInfo{us.spotco.malwarescanner/us.spotco.malwarescanner.MainActivity}" drawable="hypatia" name="Hypatia" />
-  <item component="ComponentInfo{us.spotco.malwarescanner/us.spotco.malwarescanner.MainActivity}" drawable="hypatia" name="Hypatia" />
+  
+  <item component="ComponentInfo{us.spotco.malwarescanner/us.spotco.malwarescanner.MainActivity}" drawable="phosphor_shield_checkered_fill" name="Hypatia" />
   <item component="ComponentInfo{it.hype.app/it.hype.app.ui.main.MainActivity}" drawable="hype" name="Hype" />
   <item component="ComponentInfo{com.zutgames.ilovehue/com.ansca.corona.CoronaActivity}" drawable="i_love_hue" name="I Love Hue" />
   <item component="ComponentInfo{com.zutgames.ilovehue2/com.unity3d.player.UnityPlayerActivity}" drawable="i_love_hue_too" name="I Love Hue Too" />
@@ -1899,6 +1938,7 @@
   <item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.Activity.MainActivity}" drawable="infinity_for_reddit" name="Infinity" />
   <item component="ComponentInfo{ml.docilealligator.infinityforreddit/ml.docilealligator.infinityforreddit.MainActivity}" drawable="infinity_for_reddit" name="Infinity" />
   <item component="ComponentInfo{com.nianticproject.ingress/com.nianticproject.ingress.IngressActivity}" drawable="ingress" name="Ingress" />
+  <item component="ComponentInfo{com.zionhuang.music/com.zionhuang.music.MainActivity}" drawable="phosphor_music_notes_fill" name="InnerTune" />
   <item component="ComponentInfo{com.zionhuang.music/com.zionhuang.music.ui.activities.MainActivity}" drawable="mi_music" name="InnerTune" />
   <item component="ComponentInfo{com.zionhuang.music.debug/com.zionhuang.music.ui.activities.MainActivity}" drawable="mi_music" name="InnerTune Debug" />
   <item component="ComponentInfo{com.innologica.inoreader/com.innologica.inoreader.activities.BootstrapActivity}" drawable="inoreader" name="Inoreader" />
@@ -2591,6 +2631,7 @@
   <item component="ComponentInfo{com.milanote.milanoteApp/com.milanote.milanoteApp.MainActivity}" drawable="milanote" name="Milanote" />
   <item component="ComponentInfo{com.solidict.millenicom/com.solidict.millenicom.activities.SplashActivity}" drawable="millenicom" name="Millenicom" />
   <item component="ComponentInfo{com.getmimo/com.getmimo.ui.SplashActivity}" drawable="mimo" name="Mimo" />
+  <item component="ComponentInfo{com.getmimo/com.getmimo.ui.SplashActivity_default}" drawable="mimo" name="Mimo" />
   <item component="ComponentInfo{com.fedosov.mindtracker/com.fedosov.mindtracker.MainActivity}" drawable="mind_tracker" name="Mind Tracker" />
   <item component="ComponentInfo{com.mojang.minecraftpe/com.d.a}" drawable="minecraft" name="Minecraft" />
   <item component="ComponentInfo{com.mojang.minecraftpe/com.feng.ym.ad.YMLoginActivity}" drawable="minecraft" name="Minecraft" />
@@ -2704,6 +2745,7 @@
   <item component="ComponentInfo{com.mxtech.videoplayer.pro/com.mxtech.videoplayer.pro.ActivityWelcomeMX}" drawable="generic_player" name="MX Player" />
   <item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.ui.splash.SplashActivity}" drawable="myairtel" name="My Airtel" />
   <item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.activities.HomeActivity}" drawable="myairtel" name="My Airtel" />
+  <item component="ComponentInfo{org.totschnig.myexpenses/org.totschnig.myexpenses.SplashActivity}" drawable="phosphor_sigma" name="My Expenses" />
   <item component="ComponentInfo{com.crossknowledge.learnguided/com.crossknowledge.learnguided.MainActivity}" drawable="my_learning" name="My Learning" />
   <item component="ComponentInfo{ru.mts.mymts/ru.mts.core.ActivitySplash}" drawable="mts" name="My MTS" />
   <item component="ComponentInfo{com.heytap.vip/com.platform.usercenter.vip.UCVIPMainActivity}" drawable="my_oneplus" name="My OnePlus" />
@@ -3426,6 +3468,7 @@
   <item component="ComponentInfo{se.leeroygroup.pizzahut/com.burgerqueenapp.MainActivity}" drawable="pizza_hut" name="Pizza Hut" />
   <item component="ComponentInfo{com.miniclip.plagueinc/com.miniclip.plagueinc.SplashActivity}" drawable="plague_inc" name="Plague Inc." />
   <item component="ComponentInfo{com.ismartcoding.plain/com.ismartcoding.plain.ui.MainActivity}" drawable="plainapp" name="PlainApp" />
+  <item component="ComponentInfo{com.ministrycentered.PlanningCenter/com.ministrycentered.PlanningCenter.PlanningCenterOnlineActivity}" drawable="phosphor_list_bullets_fill" name="Planning Center Services" />
   <item component="ComponentInfo{gr.nikolasspyr.integritycheck/gr.nikolasspyr.integritycheck.MainActivity}" drawable="play_integrity_api_checker" name="Play Integrity API Checker" />
   <item component="ComponentInfo{ch.srgssr.playsuisse.tv/ch.srgssr.playsuisse.tv.LaunchActivity}" drawable="playsuisse" name="Play Suisse" />
   <item component="ComponentInfo{ch.srgssr.playsuisse.tv/ch.srgssr.playsuisse.tv.MainActivity}" drawable="playsuisse" name="Play Suisse" />
@@ -3525,6 +3568,7 @@
   <item component="ComponentInfo{org.billthefarmer.print/org.billthefarmer.print.Print}" drawable="printer" name="Printer" />
   <item component="ComponentInfo{org.mopria.printplugin/org.mopria.printplugin.SplashScreenActivity}" drawable="printer" name="Printer" />
   <item component="ComponentInfo{com.prisma3D.prisma3D/com.prisma.prismaplugin.UnityPlayerActivityStatusBar}" drawable="prisma3d" name="Prisma 3D" />
+  <item component="ComponentInfo{com.privacy.pay/com.privacy.pay.MainActivity}" drawable="phosphor_credit_card" name="Privacy" />
   <item component="ComponentInfo{rk.android.app.privacydashboard/rk.android.app.privacydashboard.activities.splash.SplashActivity}" drawable="privacy_dashboard" name="Privacy Dashboard" />
   <item component="ComponentInfo{de.mathema.privacyblur/de.mathema.privacyblur.MainActivity}" drawable="privacyblur" name="PrivacyBlur" />
   <item component="ComponentInfo{ua.privatbank.ap24/ua.privatbank.ap24v6.MainActivity}" drawable="privat24" name="Privat24" />
@@ -4892,6 +4936,7 @@
   <item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="unionpay" name="UnionPay" />
   <item component="ComponentInfo{com.physphil.android.unitconverterultimate/com.physphil.android.unitconverterultimate.MainActivity}" drawable="unit_converter_ultimate" name="Unit Converter Ultimate" />
   <item component="ComponentInfo{com.samruston.converter/com.samruston.converter.ui.MainActivity}" drawable="unit_lab" name="Unit Lab" />
+  <item component="ComponentInfo{com.sadellie.unitto/com.sadellie.unitto.MainActivity}" drawable="phosphor_math_operations" name="Unitto" />
   <item component="ComponentInfo{com.camel.corp.universalcopy/com.camel.corp.universalcopy.settings.SettingsActivity}" drawable="universal_copy" name="Universal Copy" />
   <item component="ComponentInfo{lu.gian.uniwhere/lu.gian.uniwhere.features.home.ui.HomeActivity}" drawable="uniwhere" name="Uniwhere" />
   <item component="ComponentInfo{com.untappdllc.app/com.untappdllc.mosaic.MainActivity}" drawable="untappd" name="Untappd" />
@@ -5346,5 +5391,4 @@
   <item component="ComponentInfo{at.oebb.ts/at.oebb.ts.SplashActivity}" drawable="oebb" name="ÖBB" />
   <item component="ComponentInfo{com.utorrent.client/com.bittorrent.app.Main}" drawable="utorrent" name="µTorrent" />
   <item component="ComponentInfo{com.utorrent.client/com.bittorrent.app.Main}" drawable="utorrent" name="µTorrent" />
-  <item component="ComponentInfo{com.getmimo/com.getmimo.ui.SplashActivity_default}" drawable="mimo" name="Mimo"/>
   </resources>
