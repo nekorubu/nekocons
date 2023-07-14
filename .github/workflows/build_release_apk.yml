@@ -23,6 +23,7 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
       - name: Write sign info
+        if: github.repository_owner == 'LawnchairLauncher'
         run: |
           if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties
@@ -31,15 +32,43 @@ jobs:
             echo storeFile='${{ github.workspace }}/key.jks' >> keystore.properties
             echo ${{ secrets.KEYSTORE }} | base64 --decode > ${{ github.workspace }}/key.jks
           fi
+          
       - name: Prepare Prebuild
         run: ./gradlew svg-processor:run
+        
       - name: Build release APK
         run: ./gradlew app:assembleRelease
+        
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: Release APK
           path: app/build/outputs/apk/app/release/*.apk
+          
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "v${{ steps.get-version.outputs.VERSION }}"
+          release_name: "${{ steps.get-version.outputs.VERSION }}"
+          draft: false
+          prerelease: false
+
+      - name: Get APK Filename
+        id: get-apk-filename
+        run: echo ::set-output name=FILENAME::$(basename $(ls -1 app/build/outputs/apk/app/release/*.apk) )
+
+      - name: Upload APK
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: "app/build/outputs/apk/app/release/${{ steps.get-apk-filename.outputs.FILENAME }}"
+          asset_name: ${{ steps.get-apk-filename.outputs.FILENAME }}
+          asset_content_type: application/vnd.android.package-archive
 
   send-notifications:
     runs-on: ubuntu-latest
