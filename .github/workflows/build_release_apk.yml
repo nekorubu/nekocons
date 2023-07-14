@@ -51,7 +51,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "github-release-test-6"
+          tag_name: "github-release-test-7"
           release_name: "GitHub Action Release test"
           draft: false
           prerelease: false
