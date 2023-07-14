@@ -51,14 +51,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "github-release-test-1"
+          tag_name: "github-release-test-2"
           release_name: "GitHub Action Release test"
           draft: false
           prerelease: false
 
       - name: Get APK Filename
         id: get-apk-filename
-        run: echo ::set-output name=FILENAME::$($(ls -1 app/build/outputs/apk/app/release/*.apk) )
+        run: echo ::set-output name=FILENAME::$(ls -1 app/build/outputs/apk/app/release/*.apk)
 
       - name: Upload APK
         uses: actions/upload-release-asset@v1
@@ -66,7 +66,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: "app/build/outputs/apk/app/release/${{ steps.get-apk-filename.outputs.FILENAME }}"
+          asset_path: "app/build/outputs/apk/app/release/Release APK.apk"
           asset_name: testing.apk
           asset_content_type: application/vnd.android.package-archive
 
