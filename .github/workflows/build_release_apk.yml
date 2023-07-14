@@ -66,8 +66,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-#           asset_path: "app/build/outputs/apk/app/release/*.apk"
-          asset_path: ${{ steps.get-apk-filename.outputs.FILENAME }}
+          asset_path: "app/build/outputs/apk/app/release/*.apk"
+#           asset_path: ${{ steps.get-apk-filename.outputs.FILENAME }}
           asset_name: testing.apk
           asset_content_type: application/vnd.android.package-archive
 
