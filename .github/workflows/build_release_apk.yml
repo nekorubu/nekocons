@@ -51,8 +51,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "v${{ steps.get-version.outputs.VERSION }}"
-          release_name: "${{ steps.get-version.outputs.VERSION }}"
+          tag_name: "github release test"
+          release_name: "GitHub Action Release test"
           draft: false
           prerelease: false
 
