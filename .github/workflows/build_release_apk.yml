@@ -58,7 +58,7 @@ jobs:
 
       - name: Get APK Filename
         id: get-apk-filename
-        run: echo ::set-output name=FILENAME::$(basename $(ls -1 app/build/outputs/apk/app/release/*.apk) )
+        run: echo ::set-output name=FILENAME::$($(ls -1 app/build/outputs/apk/app/release/*.apk) )
 
       - name: Upload APK
         uses: actions/upload-release-asset@v1
