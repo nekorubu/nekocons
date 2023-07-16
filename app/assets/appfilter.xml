@@ -596,7 +596,7 @@
   <calendar component="ComponentInfo{org.withouthat.acalendar/org.withouthat.acalendar.ACalendar}" prefix="themed_icon_calendar_" name="Calendar" />
   <calendar component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" prefix="themed_icon_calendar_" name="Calendar" />
   <calendar component="ComponentInfo{ws.xsoh.etar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
-  
+
   <item drawableIgnore="true" component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
   <item drawableIgnore="true" component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
   <item drawableIgnore="true" component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
@@ -613,7 +613,7 @@
   <item drawableIgnore="true" component="ComponentInfo{org.withouthat.acalendarplus/org.withouthat.acalendar.ACalendar}" drawable="themed_icon_calendar_31" name="Calendar" />
   <item drawableIgnore="true" component="ComponentInfo{org.withouthat.acalendar/org.withouthat.acalendar.ACalendar}" drawable="themed_icon_calendar_31" name="Calendar" />
   <item drawableIgnore="true" component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
-  
+
   <item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.gustavoas.calendarqst/com.gustavoas.calendarqst.SettingsActivity}" drawable="calentile" name="CalenTile" />
@@ -1327,6 +1327,7 @@
   <item component="ComponentInfo{io.enpass.app/in.sinew.enpass.MainActivity}" drawable="enpass" name="Enpass" />
   <item component="ComponentInfo{io.enpass.app/io.enpass.app.SplashScreenActivity}" drawable="enpass" name="Enpass" />
   <item component="ComponentInfo{io.ente.photos/io.ente.photos.MainActivity}" drawable="ente_photos" name="ente Photos" />
+  <item component="ComponentInfo{io.ente.photos.fdroid/io.ente.photos.MainActivity}" drawable="ente_photos" name="ente Photos (F-Droid)" />
   <item component="ComponentInfo{com.f1soft.esewa/com.f1soft.esewa.activity.SplashScreenActivity}" drawable="esewa" name="eSewa" />
   <item component="ComponentInfo{br.com.vcesfera/br.com.vcesfera.MainActivity}" drawable="esfera" name="Esfera" />
   <item component="ComponentInfo{com.espn.score_center/com.espn.sportscenter.ui.EspnLaunchActivity}" drawable="espn" name="ESPN" />
@@ -1892,7 +1893,7 @@
   <item component="ComponentInfo{com.philips.lighting.hue2/com.philips.lighting.hue2.ContentActivity}" drawable="hue" name="Hue" />
   <item component="ComponentInfo{com.hulu.plus/com.hulu.features.splash.SplashActivity}" drawable="hulu" name="Hulu" />
   <item component="ComponentInfo{de.human_resources/com.godot.game.GodotApp}" drawable="human_resources" name="Human Resources" />
-  
+
   <item component="ComponentInfo{us.spotco.malwarescanner/us.spotco.malwarescanner.MainActivity}" drawable="phosphor_shield_checkered_fill" name="Hypatia" />
   <item component="ComponentInfo{it.hype.app/it.hype.app.ui.main.MainActivity}" drawable="hype" name="Hype" />
   <item component="ComponentInfo{com.zutgames.ilovehue/com.ansca.corona.CoronaActivity}" drawable="i_love_hue" name="I Love Hue" />
@@ -2565,7 +2566,7 @@
   <item component="ComponentInfo{rocks.poopjournal.metadataremover/rocks.poopjournal.metadataremover.ui.MainActivity}" drawable="metadata_remover" name="Metadata Remover" />
   <item component="ComponentInfo{tr.gov.mgm.meteorolojihavadurumu/tr.gov.mgm.meteorolojihavadurumu.SplashActivity}" drawable="meteoroloji" name="Meteoroloji" />
   <item component="ComponentInfo{ch.admin.meteoswiss/ch.admin.meteoswiss.MainActivity}" drawable="meteo_swiss" name="MeteoSwiss" />
-  <item component="ComponentInfo{io.github.muntashirakon.Music/io.github.muntashirakon.music.activities.MainActivity}" drawable="retro_music" name="Metro" />
+  <item component="ComponentInfo{io.github.muntashirakon.Music/code.name.monkey.retromusic.activities.MainActivity}" drawable="retro_music" name="Metro" />
   <item component="ComponentInfo{br.com.timbrasil.meutim/br.com.timbrasil.meutim.MeuTIM}" drawable="tim" name="Meu Tim" />
   <item component="ComponentInfo{br.com.timbrasil.meutim/com.accenture.meutim.activities.SplashScreenActivity}" drawable="tim" name="Meu Tim" />
   <item component="ComponentInfo{br.com.timbrasil.meutim/com.accenture.meutim.activities.SplashScreen}" drawable="tim" name="Meu Tim" />
@@ -2745,7 +2746,7 @@
   <item component="ComponentInfo{com.mxtech.videoplayer.pro/com.mxtech.videoplayer.pro.ActivityWelcomeMX}" drawable="generic_player" name="MX Player" />
   <item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.ui.splash.SplashActivity}" drawable="myairtel" name="My Airtel" />
   <item component="ComponentInfo{net.omobio.airtelsc/net.omobio.airtelsc.activities.HomeActivity}" drawable="myairtel" name="My Airtel" />
-  <item component="ComponentInfo{org.totschnig.myexpenses/org.totschnig.myexpenses.SplashActivity}" drawable="phosphor_sigma" name="My Expenses" />
+  <item component="ComponentInfo{org.totschnig.myexpenses/org.totschnig.myexpenses.activity.SplashActivity}" drawable="phosphor_sigma" name="My Expenses" />
   <item component="ComponentInfo{com.crossknowledge.learnguided/com.crossknowledge.learnguided.MainActivity}" drawable="my_learning" name="My Learning" />
   <item component="ComponentInfo{ru.mts.mymts/ru.mts.core.ActivitySplash}" drawable="mts" name="My MTS" />
   <item component="ComponentInfo{com.heytap.vip/com.platform.usercenter.vip.UCVIPMainActivity}" drawable="my_oneplus" name="My OnePlus" />
@@ -3468,7 +3469,7 @@
   <item component="ComponentInfo{se.leeroygroup.pizzahut/com.burgerqueenapp.MainActivity}" drawable="pizza_hut" name="Pizza Hut" />
   <item component="ComponentInfo{com.miniclip.plagueinc/com.miniclip.plagueinc.SplashActivity}" drawable="plague_inc" name="Plague Inc." />
   <item component="ComponentInfo{com.ismartcoding.plain/com.ismartcoding.plain.ui.MainActivity}" drawable="plainapp" name="PlainApp" />
-  <item component="ComponentInfo{com.ministrycentered.PlanningCenter/com.ministrycentered.PlanningCenter.PlanningCenterOnlineActivity}" drawable="phosphor_list_bullets_fill" name="Planning Center Services" />
+  <item component="ComponentInfo{com.ministrycentered.PlanningCenter/com.ministrycentered.planningcenteronline.activities.PlanningCenterOnlineActivity}" drawable="phosphor_list_bullets_fill" name="Planning Center Services" />
   <item component="ComponentInfo{gr.nikolasspyr.integritycheck/gr.nikolasspyr.integritycheck.MainActivity}" drawable="play_integrity_api_checker" name="Play Integrity API Checker" />
   <item component="ComponentInfo{ch.srgssr.playsuisse.tv/ch.srgssr.playsuisse.tv.LaunchActivity}" drawable="playsuisse" name="Play Suisse" />
   <item component="ComponentInfo{ch.srgssr.playsuisse.tv/ch.srgssr.playsuisse.tv.MainActivity}" drawable="playsuisse" name="Play Suisse" />
